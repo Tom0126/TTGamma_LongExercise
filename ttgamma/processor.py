@@ -501,7 +501,7 @@ class TTGammaProcessor(processor.ProcessorABC):
             "phoSel_0tight",
             (ak.num(tightPhotons) == 0),
         )  #FIXME 1b
-
+x
         # add selection for events with exactly 1 tight photon
         selection.add(
             "phoSel_1tight",
